@@ -1,0 +1,70 @@
+/*
+#form1 {
+    height: 520px;
+    width: 400px;
+    padding: 40px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(23, 25, 26);
+    border-radius: 10px;
+    background-color:darkblue;
+}
+*/
+#form1 {
+    height: 520px;
+    width: 400px;
+    padding: 40px;
+    padding-top: 25px;
+  
+
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(23, 25, 26);
+    border-radius: 10px;
+    border-color: aqua;
+     
+}
+
+.a{
+	position: absolute;
+	background: url("/assets/image1.jpg");
+	height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+
+#leftbox { 
+
+    float:left;  
+
+    background:Red; 
+
+    width:25%; 
+
+    height:280px; 
+
+} 
+
+#middlebox{ 
+
+    float:left;  
+
+    background:Green; 
+
+    width:50%; 
+
+    height:280px; 
+
+} 
+
+#rightbox{ 
+
+    float:right; 
+
+    background:blue; 
+
+    width:25%; 
+
+    height:280px; 
+
+} 

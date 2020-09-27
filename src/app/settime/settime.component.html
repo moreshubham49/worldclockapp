@@ -1,0 +1,62 @@
+<div class="b">
+<div class="container mt-5" id="form1">
+  <form  #myForm="ngForm" (ngSubmit)="SetTime(myForm)" role="form" >
+      <div class="form-group">
+
+        <label for="Name">United States</label>
+        <input type="time" class="form-control" id="time"  name="time" required="required" ngModel  required>
+
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+ <br><br> 
+<!-- <lable>United States</lable>
+<label id="USATIME"></label> -->
+<!--
+<lable>London</lable>
+<label id="LondonTIME"></label>
+
+<lable>India</lable>
+<label id="IndiaTIME"></label> -->
+<div id=boxes>
+<div id="left">
+  <h1 style="color:red">United States</h1>
+  <h2><div id="USATIME"></div></h2>
+</div>
+
+<div id="center">
+  <h2>London</h2>
+  <div id="LONDONTIME"></div>
+</div>
+
+<div id="righ">
+  <h2>India</h2>
+<div id="INDIATIME"></div>
+</div>
+</div>
+
+<br><br><br>
+
+
+<div class="container mt-5" id="form2" >
+    <form  #myFormdiff="ngForm" (ngSubmit)="getDifference(myFormdiff)" role="form" >
+        <div class="form-group">
+
+          <label for="Name">London</label>
+          <input type="number" class="form-control" id="diffLondon"  name="diffLondon" required="required" ngModel  required>
+
+        </div>
+        <div class="form-group">
+
+            <label for="Name">India</label>
+            <input type="number" class="form-control" id="diffIndia"  name="diffIndia" required="required" ngModel  required>
+
+          </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+
+</div>
